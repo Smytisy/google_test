@@ -1,0 +1,1 @@
+-isystem C:/Users/mailo/CLionProjects/lab_2/lib/googlemock/include -isystem C:/Users/mailo/CLionProjects/lab_2/lib/googlemock -isystem C:/Users/mailo/CLionProjects/lab_2/lib/googletest/include -isystem C:/Users/mailo/CLionProjects/lab_2/lib/googletest
