@@ -35,6 +35,7 @@ TEST(gray_box_test, gray) {
     EXPECT_EQ(test_1("ffffffff", "dddd", "dddcffff2223"),
               true);
 }
+// white test
 TEST(white_box_test, white) {
 
     EXPECT_EQ(test_1("101", "101", "10201"),
