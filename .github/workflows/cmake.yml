@@ -26,4 +26,4 @@ jobs:
 
       - name: Test
         working-directory: ${{github.workspace}}/build
-        run: ${github.workspace}/build/lab_2.exe
+        run: lab_2.exe
