@@ -26,4 +26,4 @@ jobs:
 
       - name: Test
         working-directory: ${{github.workspace}}/build
-        run: ./tests/test1.cpp
+        run: main.cpp
