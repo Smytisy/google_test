@@ -2,10 +2,10 @@ name: CMake
 
 on:
   push:
-    branches: [ lab_2 ]
+    branches: [ main ]
     tags: ['*']
   pull_request:
-    branches: [ lab_2 ]
+    branches: [ main ]
     tags: ['*']
 
 env:
@@ -26,4 +26,4 @@ jobs:
 
       - name: Test
         working-directory: ${{github.workspace}}/build
-        run: ./lab_2
+        run: ./tests/test1.cpp
